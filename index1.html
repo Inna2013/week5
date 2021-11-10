@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: gray;
+            height: 100px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .search-container {
+            text-align: center;
+        }
+
+        main {
+            float: left;
+            width: 70%;
+            height: 300px;
+            background-color: rgb(231, 231, 206);
+        }
+
+        div {
+            text-align: center;
+        }
+
+        section {
+            margin: 5px;
+            background-color: khaki;
+            width: 48%;
+        }
+
+        .a {
+            float: left;
+        }
+
+        .b {
+            float: right;
+        }
+
+        .c {
+            width: 100%;
+            height: 100px;
+            clear: both;
+        }
+
+        .flexcontainer {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+
+
+
+        aside {
+            float: right;
+            background-color: hsl(108, 77%, 75%);
+            width: 30%;
+            height: 300px;
+        }
+
+        footer {
+            background-color: gray;
+            display: flex;
+            clear: both;
+            justify-content: space-between
+        }
+
+        .nav {
+
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<header>
+    <h1>
+        Жилье посуточно
+    </h1>
+    <div class="search-container">
+        <form action="action.php">
+            <input type="text" placeholder="Поиск.." name="search">
+
+        </form>
+    </div>
+</header>
+
+<body>
+    <main>
+
+        <div>
+            <h2>Добро пожаловать!
+            </h2>
+            <p>Здесь вы найдете лучшие предложения по посуточной аренде квартир и домов</p>
+        </div>
+        <div>
+            <section class="a">
+                <h3>Улица Ленина 12</h3>
+            </section>
+            <section class="b">
+                <h4>Улица Высоцкого 36</h4>
+            </section>
+
+            <section class="c">
+                <h5>Улица горная 18</h5>
+            </section>
+        </div>
+
+    </main>
+    <aside>
+        <div class="aside">Различные статьи на тему</div>
+    </aside>
+</body>
+<footer>
+    <p><a href="#" class="nav">телефон</a></p>
+    <p><a href="#" class="nav">адрес</a></p>
+    <p><a href="#" class="nav"> партнеры</a></p>
+    <p><a href="#" class="nav">электронная почта</a></p>
+</footer>
+
+
+</html>
