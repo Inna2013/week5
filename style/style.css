@@ -1,0 +1,48 @@
+.topmenu {
+    float: right;
+    width: 856px;
+    height: 67px;
+}
+
+.sidenav {
+
+    float: left;
+    width: 169px;
+    height: 60px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+.sidenav:hover {
+    text-decoration: underline;
+}
+
+#фон {
+    float: right;
+    width: 870px;
+    height: 307px;
+}
+
+.artist {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
+
+.artist:hover {
+    text-decoration: underline;
+}
+
+button {
+
+    background-color: #FFFFFF;
+    color: #F51E38;
+}
+
+.artist {
+    width: 235px;
+    height: 60px;
+}
